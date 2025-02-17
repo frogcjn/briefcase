@@ -90,7 +90,7 @@ class CreateCommand(BaseCommand):
     @property
     def app_template_url(self) -> str:
         """The URL for a cookiecutter repository to use when creating apps."""
-        return f"https://github.com/beeware/briefcase-{self.platform}-{self.output_format}-template.git"
+        return f"https://github.com/frogcjn/briefcase-{self.platform}-{self.output_format}-template.git"
 
     def support_package_filename(self, support_revision: str) -> str:
         """The query arguments to use in a support package query request."""
